@@ -1,0 +1,27 @@
+<div class="p-3">
+
+  <table class="table">
+    <thead>
+    <tr>
+      <th>ID</th> <th>Firstname</th> <th>LastName</th> <th>Salaire</th> <th>Role</th> <th>NSS</th> <th>Salary</th><th>Address</th> <th>Téléphone</th><th>Department</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let emp of employees">
+
+      <td>{{emp.id}}</td>
+      <td>{{emp.firstname}}</td>
+      <td>{{emp.lastname}}</td>
+      <td>{{emp.salary}}</td>
+      <td>{{emp.role}}</td>
+      <td>{{emp.nss}}</td>
+      <td>{{emp.address}}</td>
+      <td>{{emp.phone}}</td>
+      <td>{{emp.domain}}</td>
+      <td>{{emp.department}}</td>
+
+    </tr>
+    </tbody>
+
+  </table>
+</div>
